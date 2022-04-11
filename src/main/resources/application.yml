@@ -1,0 +1,8 @@
+app:
+ datasource:
+  main:
+   driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+   jdbc-url: jdbc:sqlserver://127.0.0.1:1433;databaseName=MVC_ShopDB
+   username: admin
+   password: admin
+   pool-size: 30
